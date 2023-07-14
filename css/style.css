@@ -1,3 +1,271 @@
+:root {
+
+  /* Fonts */
+
+  --pramiry-font: "Roboto", sans-serif;
+  --second-font: "Raleway", sans-serif;
+
+  /* Colors*/
+  --pramiry-cl: #2E2F42;
+
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--pramiry-font);
+  color: #434455;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+.list {
+  list-style-type: none;
+}
+.button:hover,
+.button:focus {
+color: #fff;
+background:#404BBF;
+}
+.nav:active,
+.nav:hover,
+.nav:focus {
+    color: #404BBF;
+}
+/* Header styles */
+
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+    color: var(--pramiry-cl);
+font-family: --second-font
+font-size: 18px;
+font-weight: 800;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.header-logo-color {
+  color: #4d5ae5;
+  font-family: --second-font;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.header-navigation-list {
+}
+.header-navigation-item {
+    color:var(--pramiry-cl);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-link {
+}
+.header-address {
+}
+.header-address-list {
+}
+.header-address-item {
+    color:#434455;
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-address-link {
+}
+
+/* Main styles */
+
+.main {
+}
+
+/* Hero*/
+
+.hero {
+    background: var(--pramiry-cl);
+}
+.hero-title {
+color:#FFF;
+text-align: center;
+font-family: --pramiry-font;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+.hero-button {
+    color: #FFF;
+    background: #4D5AE5;
+font-family: --pramiry-font;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+
+/*Adventages*/
+
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.advantages-list-item {
+}
+.advantages-item-title {
+    color: var(--pramiry-cl);
+font-family: --pramiry-font;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.advantages-item-text {
+    color:#434455;
+font-family: --pramiry-font;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* Examples */
+
+.examples {
+}
+.examples-title {
+    color: var(--pramiry-cl);
+text-align: center;
+font-family: --pramiry-font
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+}
+.examples-list {
+}
+.examples-list-item {
+}
+.examples-list-img {
+}
+
+/* Team */
+
+.team {
+    background: #F4F4FD;
+}
+.team-title {
+    color: var(--pramiry-cl);
+text-align: center;
+font-family: var(--pramiry-font);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-img {
+}
+.team-list-title {
+    color: var(--pramiry-cl);
+text-align: center;
+font-family: var(--pramiry-font);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.team-list-text {
+    color:#434455;
+text-align: center;
+font-family: var(--pramiry-font);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* Footer */
+
+.footer {
+    background: var(--pramiry-cl);
+}
+.footer-text {
+    color: #F4F4FD;
+font-family: var(--pramiry-font);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.footer-logo {
+    color: #F4F4FD;
+font-family: var(--second-font);
+font-size: 18px;
+font-weight: 800;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+/* Portfolio */
+
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-filter-list {
+}
+.portfolio-filter-item {
+}
+.portfolio-filter-button {
+    color: #4D5AE5;
+    background:#F4F4FD;
+text-align: center;
+font-family: var(--pramiry-font);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+.portfolio-filter-button-first {
+    color: #FFF;
+    background:#404BBF;
+text-align: center;
+font-family: var(--pramiry-font);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-list-img {
+}
+.portfolio-list-title {
+    color: var(--pramiry-cl);
+font-family: var(--pramiry-font);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.portfolio-list-text {
+    color:#434455;
+font-family: var(--pramiry-font);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
