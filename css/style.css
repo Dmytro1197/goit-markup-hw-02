@@ -13,6 +13,7 @@
 body {
   font-family: var(--pramiry-font);
   color: #434455;
+  background-color:#FFFFFF;
 }
 
 .link {
