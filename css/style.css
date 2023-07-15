@@ -31,6 +31,9 @@ body {
 .list {
   list-style-type: none;
 }
+.address {
+  font-style: normal;
+}
 .button:hover,
 .button:focus {
   color: var(--white);
@@ -171,7 +174,7 @@ body {
 /* Team --------------------------------------------------------------- */
 
 .team {
-  background: var(--cloud);
+  background-color: var(--cloud);
 }
 .team-title {
   color: var(--navy-blue);
