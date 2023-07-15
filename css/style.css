@@ -175,6 +175,7 @@ body {
 /* Team --------------------------------------------------------------- */
 
 .team {
+  background-color: var(--cloud);
 }
 .team-title {
   color: var(--navy-blue);
