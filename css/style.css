@@ -175,7 +175,6 @@ body {
 /* Team --------------------------------------------------------------- */
 
 .team {
-  background-color: var(--cloud);
 }
 .team-title {
   color: var(--navy-blue);
@@ -188,9 +187,9 @@ body {
   text-transform: capitalize;
 }
 .team-list {
-  background-color: var(--white);
 }
 .team-list-item {
+  background-color: var(--white);
 }
 .team-list-img {
 }
