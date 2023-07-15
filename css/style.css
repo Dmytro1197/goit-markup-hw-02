@@ -262,17 +262,6 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.portfolio-filter-button-first {
-  color: var(--white);
-  background: var(--ocean);
-  text-align: center;
-  font-family: var(--pramiry-font);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
 .portfolio-list {
 }
 .portfolio-list-item {
