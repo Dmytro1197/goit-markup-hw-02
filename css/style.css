@@ -188,7 +188,7 @@ body {
   text-transform: capitalize;
 }
 .team-list {
-  background-color: var(--cloud);
+  background-color: var(--white);
 }
 .team-list-item {
 }
