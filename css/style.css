@@ -80,6 +80,7 @@ body {
 .header-link {
 }
 .header-address {
+  font-style: normal;
 }
 .header-address-list {
 }
@@ -187,7 +188,7 @@ body {
   text-transform: capitalize;
 }
 .team-list {
-  background-color: var(--white);
+  background-color: var(--cloud);
 }
 .team-list-item {
 }
